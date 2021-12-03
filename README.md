@@ -1,6 +1,11 @@
 # Cancer Detection using Computer Vision
 ## Final project for INFO 5082
 
+Pertinent Files:
+- The `EDA_nuclei_data.ipynb` file includes initial EDA of dataset, changes to dataset, and final modified dataset which is included in the `/data` folder.
+- The `train_model.ipynb` files includes data loading, model architecture and training, as well as model evaluation. Final model has been saved in the `/model` folder.
+- The `evaluate_model.ipynb` file includes post-evaluation using saved model files.
+
 ### Statement of the Project Problem
 
 This project seeks out to determine if a single deep learning model can be created to take in medical images and detect cancer cells among a variety of different types of tissue. The location of the cancerous cells will be annotated in the model’s output. This project requires a labeled medical imaging dataset that will need to be visualized and assessed in an exploratory data analysis (EDA) to determine the nature of the images in which work will be done. Then, different types of neural networks, from modified U-Net to Mask R-CNN, are explored to determine the best model architecture that is suitable for this problem. After this, the model is trained and evaluated by analyzing the model’s learning curves, performance metrics, as well as visualizing resulting images and their predicted masks.
